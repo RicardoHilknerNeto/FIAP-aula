@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        thead{
+            background-color: gray;
+        }
+        tfoot{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Email</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Luís Carlos</td>
+                <td>96589-2356</td>
+                <td>lsilva@fiap.com.br</td>
+            </tr>
+            <tr>
+                <td>98521-1258</td>
+                <td>lsilva@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Matheus Fernandes</td>
+                <td>98745-6321</td>
+                <td>matheus@fiap.com.br</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="rodape" colspan="3">Lista de Contatos da FIAP</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
