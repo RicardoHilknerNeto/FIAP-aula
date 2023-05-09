@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+form{
+    width: 25%;
+    margin: auto;
+}
+
+#borda{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
