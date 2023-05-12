@@ -1,8 +1,4 @@
-from ast import Try
-import imp
-
 import math
-from multiprocessing.sharedctypes import Value
 
 a = b = c = 0
 delta = rdelta = x1 = x2 = 0.0
